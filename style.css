@@ -1,0 +1,21 @@
+/* Garantir que o fundo cubra toda a tela */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #456457, #567568, #486534, #234235) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 300px;
+    width: 100%;
+    padding:100px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #8d8d8d;
+}
+    
